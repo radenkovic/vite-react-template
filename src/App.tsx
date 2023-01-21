@@ -18,7 +18,6 @@ function App(appProps: AppProps) {
   const tester: BrutoPayload = {
     name: "ok",
   };
-  console.log("tester", tester.wat);
 
   const increase = (e) => {
     printz();
@@ -36,7 +35,7 @@ function App(appProps: AppProps) {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <TestComponent />
+      <TestComponent name="konj" />
       <div className="card">
         <button onClick={increase}>count is {count}</button>
         <p>

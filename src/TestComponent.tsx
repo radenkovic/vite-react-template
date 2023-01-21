@@ -1,5 +1,5 @@
 interface TestProps {
-  name: string;
+  name?: string;
 }
 
 export default function TestComponent(testProps: TestProps) {
