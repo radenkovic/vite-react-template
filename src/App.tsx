@@ -1,26 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import TestComponent from "@/TestComponent";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import TestComponent from "./TestComponent";
-import printz from "./funct";
-interface BrutoPayload {
-  name: string;
-  age?: number;
-}
 
 interface AppProps {
   name?: string;
 }
 
 function App(appProps: AppProps) {
+  console.log(appProps);
   const [count, setCount] = useState<number>(0);
 
-  const tester: BrutoPayload = {
-    name: "ok",
-  };
-
-  const increase = (e) => {
-    printz();
+  const increase = () => {
     setCount((c) => c + 1);
   };
 
@@ -35,7 +26,7 @@ function App(appProps: AppProps) {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <TestComponent name="konj" />
+      <TestComponent name="Testcomponent" />
       <div className="card">
         <button onClick={increase}>count is {count}</button>
         <p>

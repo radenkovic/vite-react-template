@@ -1,7 +1,7 @@
 interface TestProps {
-  name?: string;
+  name: string;
 }
 
 export default function TestComponent(testProps: TestProps) {
-  return <div>Test Component!</div>;
+  return <div>{testProps.name}</div>;
 }
