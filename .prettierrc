@@ -1,6 +1,3 @@
 {
-  "tabWidth": 2,
-  "importOrder": ["^react(.*)$", "^@/(.*)$", "^\\..*(?<!\\.css)$", "\\.css$"],
-  "importOrderSeparation": false,
-  "importOrderSortSpecifiers": true
+  "tabWidth": 2
 }
