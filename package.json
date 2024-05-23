@@ -9,10 +9,10 @@
     "preview": "vite preview",
     "tslint": "tsc --noEmit",
     "lint": "eslint",
-    "prepare": "husky install",
     "prettier-fix": "prettier --write --ignore-path .gitignore .",
     "prettier-check": "prettier --check --ignore-path .gitignore .",
-    "test": "jest ./tests"
+    "test": "jest ./tests",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18.2.0",
