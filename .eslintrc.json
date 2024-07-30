@@ -17,6 +17,12 @@
   },
   "overrides": [
     {
+      "files": ["*.+(ts|tsx)"],
+      "rules": {
+        "no-unused-vars": 0
+      }
+    },
+    {
       "files": ["./vite.config.ts"],
       "env": { "node": true }
     },
