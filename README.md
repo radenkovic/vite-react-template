@@ -11,7 +11,7 @@
 
 ## Aliases
 
-When adding aliases, you need to update 3 files:
+When adding aliases, you need to update 2 files:
 
 - vite.config.js (alias)
 - tsconfig.json (paths)
