@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TestComponent from "@/TestComponent";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "@/assets/react.svg";
 import "./App.css";
 
 interface AppProps {
@@ -8,7 +8,6 @@ interface AppProps {
 }
 
 function App(appProps: AppProps) {
-  console.log(appProps);
   const [count, setCount] = useState<number>(0);
 
   const increase = () => {
@@ -17,6 +16,7 @@ function App(appProps: AppProps) {
 
   return (
     <div className="1">
+      {appProps.name && <h1>{appProps.name}</h1>}
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />

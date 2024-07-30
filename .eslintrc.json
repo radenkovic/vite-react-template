@@ -28,7 +28,7 @@
     },
     {
       "files": ["*.test.+(ts|tsx|js|jsx)"],
-      "env": { "jest": true }
+      "globals": { "screen": "off" }
     }
   ]
 }

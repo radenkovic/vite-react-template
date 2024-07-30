@@ -1,11 +1,11 @@
 # React TS Vite Project
 
-> Common sense react/ts/vite/eslint/prettier/jest
+> Common sense react/ts/vite/eslint/prettier/vitest
 
 - React
 - Typescript (very permissive config, almost like plain JS)
 - Husky
-- Jest
+- Vitest
 - Eslint
 - Prettier
 
@@ -15,4 +15,3 @@ When adding aliases, you need to update 3 files:
 
 - vite.config.js (alias)
 - tsconfig.json (paths)
-- jest.config.js (moduleNameMapper)
