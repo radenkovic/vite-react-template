@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "tslint": "tsc --noEmit",
     "lint": "eslint",
-    "prettier-fix": "prettier --write --ignore-path .gitignore .",
-    "prettier-check": "prettier --check --ignore-path .gitignore .",
+    "prettier-fix": "prettier --write .",
+    "prettier-check": "prettier --check .",
     "test": "vitest run ./tests",
     "prepare": "husky"
   },
